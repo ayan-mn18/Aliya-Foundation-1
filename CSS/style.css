@@ -4,6 +4,11 @@
     font-family: 'poppins', sans-serif;
 }
 
+#main{
+    width: 100vw !important;
+    overflow-x: hidden !important;
+}
+
 #banner {
     /* background-image: linear-gradient(  rgba(0,0,0,0) ,rgba(119 ,219 ,219 , 0.5)  ) ,linear-gradient(rgba(255, 20, 147 ,0.5) ,  rgba(0,0,0,0)) , url(imgs/slider1.jpeg); */
     background-size:cover;
@@ -22,7 +27,7 @@
     height: 3rem;
     position: absolute;
     top: 2rem;
-    left: 5rem;
+    left: 3rem;
     z-index: 10000000;
 }
 .banner-txt{
@@ -135,7 +140,7 @@
 .menu-btn {
     position: absolute;
     top : 6%;
-    right: 2%;
+    left: 90%;
     width: 25px;
     padding: 10px;
     z-index: 3;
@@ -144,6 +149,13 @@
     opacity: 0.95;
     border-radius: 50%;
     background-color: rgba(255, 20, 147 ,0.2);
+}
+
+
+@media (max-width: 660px){
+    .menu-btn{
+        left: 85%;
+    }
 }
 
 
