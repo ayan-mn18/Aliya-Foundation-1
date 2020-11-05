@@ -4,6 +4,7 @@ let banner = document.querySelector('#banner');
 
 
 let counter = 1;
+let count = 1;
 
 menuBtn.onclick = () =>{
 
@@ -33,5 +34,7 @@ if(sideNav.style.width == '20rem')
 
 document.querySelector('#banner').style.backgroundImage = " linear-gradient(  rgba(0,0,0,0) ,rgba(119 ,219 ,219 , 0.5)  ) ,linear-gradient(rgba(255, 20, 147 ,0.5) ,  rgba(0,0,0,0)) , url('imgs/slider1.jpeg')";
 
-    }
+
+
+
 
