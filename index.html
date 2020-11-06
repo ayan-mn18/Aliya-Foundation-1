@@ -134,7 +134,7 @@
                 <h1 data-aos="fade-left">FeedBack</h1>
             </div>
 
-            <form name="volunteer" method="POST" data-netlify="true">
+            <form name="volunteer" action="POST" data-netlify="true">
 
                 <div class="name inp-form">
                     <input type="text" placeholder="Name*" class="text">
@@ -151,15 +151,14 @@
                 <div class="text inp-form">
                     <textarea name="" id="" cols="50" rows="10" placeholder=" Your Valueable Feedback*" class="txtarea"></textarea>
                 </div>
-
+                
+                <div data-netlify-recaptcha="true"></div>
+                
                 <div class=" inp-form" >
                     <button type="submit" class="submitBtn">Submit Feedback</button>
                 </div>
                 
-                <div>
-                    <input type="hidden" name="form-name" value="contact">
-                </div>
-
+                
             </form>
         </section>
         
